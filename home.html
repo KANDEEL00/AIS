@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+
+ <head>
+    <meta charset="uta-8">
+   <title>:school:AIS-Amigoz International School</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Sacramento&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+ </head>
+
+ <body>
+
+   <div class="clear"></div>
+
+   <div id="menu-bar-collector">
+
+     <img id="logo" src="images/ais.png">
+
+     <a href="login.html"><img id="image" src="images/signin-logo.png"></a>
+     
+     <div id = "sign-in">
+     <a href="login.html" id="welcome">login</a>
+     </div>
+     <div class="clear"></div>
+
+     <div id="menu-bar-collector-2">
+
+       <div id="menu-bar-2">
+
+             <div class="menubar">
+              <center>
+                <a href="home.html">Home</a>
+                <a href="schedule.html">schedule</a>
+                <a href="grades.html" class="no-border">grades</a>
+              </center>
+
+                <div class="dropdown">
+                  <button class="dropbtn"><img src="images/list.png" alt="list" width="25px"></button>
+                  <div class="dropdown-content">
+                  <a href="home.html">home</a>
+                  <a href="grades.html">grades</a>
+                  <a href="schedule.html">schedule</a>
+                  <a href="admin-admin.html">admin</a>
+                  <a href="login.html">sign out</a>
+                  </div>
+                </div>
+
+            </div>
+
+       </div>
+
+     </div>
+
+   </div>
+
+     <div class="clear"></div>
+    <div class="container-1">
+      <img class="cloud" id="top-cloud" src="images/cloud.png" alt="cloud"  >
+      <h1>WELCOME TO  AIS WEBSITE!</h1>
+      <img class="cloud" id="bottom-cloud" src="images/cloud.png" alt="cloud">
+      <img class="school" src="images/school.png" alt="school">
+
+
+    </div>
+    <hr>
+    <div class="container-2">
+      <img class="modeera" src="https://image.flaticon.com/icons/png/512/5349/5349212.png" alt="avatar" width="50px">
+      <P>our school provides the best educational system in the planet for the kids so they can be the best version of themselves</P>
+     <h3>our vision </h3>
+     <p> our vision is to make out graduates well educated and physicaly and mentaly healthy and ready to face the horrors of the world </p>
+
+
+
+
+     <div class="slideshow-container">
+
+      <div class="mySlides fade">
+
+        <img src="images/playground.jpg" style="width:100%">
+        <div class="text">luxurious playgrounds</div>
+      </div>
+
+      <div class="mySlides fade">
+
+        <img src="images/technology.jpg" style="width:100%">
+        <div class="text">technology rooms</div>
+      </div>
+
+      <div class="mySlides fade">
+
+        <img src="images/classroom1.jpg" style="width:100%">
+        <div class="text">fully equipped class rooms</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+      <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function showSlides(n) {
+
+  var slides = document.getElementsByClassName("mySlides");
+
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+
+  for (var i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+
+}
+</script>
+
+
+    </div>
+    <hr>
+    <div class="container-3">
+      <h2>get in touch</h2>
+      <p> if you want to contact us press this button</p>
+      <a class="btn" href="#contact">contact us</a>
+
+
+
+
+
+    </div>
+    <br>
+    <br>
+    <div class="bottom-container">
+      <br>
+
+      <a class="links" href="#facebook">facebook</a>
+      <a class="links" href="#twitter">twitter</a>
+      <a class="links" href="#homepage">homepage</a>
+      <p>©2021 AIS</p>
+
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+
+</html>
